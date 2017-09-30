@@ -1,0 +1,44 @@
+body{
+         background: url(http://flashwallpapers.com/wp-content/uploads/2015/10/book-old-pen-table-vase-rose-red-1600x900.jpg) no-repeat;
+         -moz-background-size: 100%
+         -webkit-background-size: 100%
+         -o-background-size: 100%
+         background-size: 100%
+     }
+     a{
+     	border: 2px solid #7379e4;
+     	color:white;
+     }
+     p{
+     	color: white;
+     	
+     }
+     a{
+     	text-decoration: underline;
+     	font-style: italic;
+     }
+
+     h1{
+     	text-align: center;
+     }
+     h2{
+     	text-align: center;
+     }
+     h3{
+     	text-align: center;
+     }
+     .text-1{
+     	text-align: right;
+
+     }
+     ol
+     	font-weight: bold;
+        
+
+     }
+     div{
+     	text-decoration: underline;
+
+     }
+     	
+     
