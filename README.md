@@ -18,3 +18,5 @@
 [8-урок](https://yadi.sk/d/8VVzVU673NM8RJ "Ускорение верстки в разы.") - Ускорение верстки в разы.
 
 [9-урок](https://yadi.sk/d/S5PyvtoY3NM8pR "Верстка при помощи bootstrap.") - Верстка при помощи bootstrap.
+
+[10-урок](https://yadi.sk/d/0NlAeYwi3NM9BB "Препроцессор LESS для CSS.") - Препроцессор LESS для CSS.
