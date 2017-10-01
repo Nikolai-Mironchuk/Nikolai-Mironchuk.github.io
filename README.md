@@ -30,3 +30,7 @@
 [11-урок](https://yadi.sk/d/5RGR_9Z83NM9U2 "Сниппеты.") - Сниппеты.
 
 [12-урок](https://nikolai-mironchuk.github.io "Хостинг от GitHub.") - Хостинг от GitHub.
+
+ ***Модуль-5***
+ 
+ [13-урок](https://yadi.sk/d/Wct24qA63NNANa "Адаптивная верстка.") - Адаптивная верстка.
