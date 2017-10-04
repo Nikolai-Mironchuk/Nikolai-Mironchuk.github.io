@@ -13,7 +13,7 @@
 
 [4-урок](https://nikolai-mironchuk.github.io/урок-4/ "Знакомство с основами HTML.") - Знакомство с основами HTML.
 
-[5-урок](https://yadi.sk/d/JTFb3UNU3NM7Vd "Знакомство с основами CSS.") - Знакомство с основами CSS.
+[5-урок](https://nikolai-mironchuk.github.io/урок-5/ "Знакомство с основами CSS.") - Знакомство с основами CSS.
 
 [6-урок](https://yadi.sk/d/mmBvp3H-3NM7eg "Позиционирование в CSS.") - Позиционирование в CSS.
 
