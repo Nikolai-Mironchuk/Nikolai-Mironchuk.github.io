@@ -25,7 +25,7 @@
 
  ***Модуль-4***
 
-[10-урок](https://yadi.sk/d/0NlAeYwi3NM9BB "Препроцессор LESS для CSS.") - Препроцессор LESS для CSS.
+[10-урок](https://yadi.sk/i/FA1bRyR23NULpQ "Препроцессор LESS для CSS.") - Препроцессор LESS для CSS.
 
 [11-урок](https://yadi.sk/d/5RGR_9Z83NM9U2 "Сниппеты.") - Сниппеты.
 
