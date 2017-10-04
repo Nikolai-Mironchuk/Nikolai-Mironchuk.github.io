@@ -11,7 +11,7 @@
 
  ***Модуль-2***
 
-[4-урок](https://yadi.sk/d/rw8vixZh3NM77j "Знакомство с основами HTML.") - Знакомство с основами HTML.
+[4-урок](https://nikolai-mironchuk.github.io/урок-4/ "Знакомство с основами HTML.") - Знакомство с основами HTML.
 
 [5-урок](https://yadi.sk/d/JTFb3UNU3NM7Vd "Знакомство с основами CSS.") - Знакомство с основами CSS.
 
