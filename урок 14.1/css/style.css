@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Lato Hairline';
+	src: url('../fonts/subset-Lato-HairlineItalic.eot');
+	src: url('../fonts/subset-Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-Lato-HairlineItalic.woff2') format('woff2'),
+		url('../fonts/subset-Lato-HairlineItalic.woff') format('woff'),
+		url('../fonts/subset-Lato-HairlineItalic.ttf') format('truetype'),
+		url('../fonts/subset-Lato-HairlineItalic.svg#Lato-HairlineItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+	
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+
+}
+small {
+	font-size: 1.3rem;
+	
+}
+.open {
+	font-family: 'Open Sans', sans-serif;
+}
+.bebas {
+	font-family: 'Bebas Neue', sans-serif;
+}
+.lato {
+	font-family: 'Lato Hairline', sans-serif;
+}
+.lobster {
+	font-family: 'Lobster', sans-serif;
+}
