@@ -1,6 +1,9 @@
 * {
  box-sizing:border-box;
 }
+body {
+	background: #fff url(../img/Безимени-2.jpg) 0 0 no-repeat;
+}
 
 .block{
 	position: fixed;
