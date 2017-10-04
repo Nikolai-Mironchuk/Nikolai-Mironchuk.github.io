@@ -1,0 +1,184 @@
+/* fonts family */
+@font-face {
+	font-family: 'ProximaNova_bold';
+	src: url('../fonts/subset-ProximaNova-Bold.eot');
+	src: url('../fonts/subset-ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/subset-ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/subset-ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova_reg';
+	src: url('../fonts/subset-ProximaNova-Regular.eot');
+	src: url('../fonts/subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/subset-ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/subset-ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.reg() {
+	font-family: 'ProximaNova_reg', sans-serif;
+}
+.bold() {
+	font-family: 'ProximaNova_bold', sans-serif;
+}
+
+
+/* colors */ 
+
+@btn-color: #f7af01;
+@icons-color: #47ba14;
+@text: #1a1820;
+@error: #ff0000;
+@bg-light :#f5f5f5;
+@light: #fff;
+@border-input: #dddddd;
+
+/* basic setting */
+
+html {
+	font-size: 10px;
+}
+body {
+	.reg();
+}
+
+
+.button {
+	background-color: @btn-color;
+	color: @light;
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	text-transform: uppercase;
+	font-size: 11px;
+	border: none;
+}
+
+/* typography */
+
+section {
+	padding: 10rem 0;
+}
+
+/* main */
+
+.main {
+	padding: 3rem 0 5rem;
+	background: #fff url(../img/fon.jpg) center center no-repeat;
+	background-size: cover;
+	&-content {
+		margin-top: 10rem;
+		h1 {
+			margin-bottom: 6rem;
+			.bold();
+			font-size: 3rem;
+			line-height: 1.2;
+			text-transform: uppercase;
+        }
+
+	}
+	&-trigger {
+		display: block;
+		font-size: 2.2rem;
+		text-transform: uppercase;
+		.bold();
+		margin-top: 3rem;
+	}
+	&-subtitle {
+		font-size: 2rem;
+	}
+	span {
+		display: inline-block;
+		padding: 2rem 3rem;
+		font-size: 1.8rem;
+		color: @light;
+		background-color: @icons-color;
+		text-align: center;
+		margin-top: 6rem;
+		strong {
+			font-size: 3rem;
+			.bold();
+		}
+
+	}
+	 /* главная форма */
+	 &-form {
+	 	padding: 4rem 5rem;
+	 	background-color: @light;
+	 	text-align: center;
+
+	 	/* заголовок формы */
+	 	&-header {
+	 		font-size: 1.3rem;
+	 		strong {
+	 			font-size: 1.5rem;
+	 		}
+	 	}
+
+	 	/* поле для ввода */
+         &-input {
+         display: block;
+         margin: 2rem 0;
+         width: 100%;
+         border: 1px solid @border-input;
+         padding: 1.4rem;
+
+
+	 	}
+	 	/* подписи к полям */
+	 	label {
+	 		position: absolute;
+	 		
+	 		left: 50%;
+	 		transform: translateX(-50%) translateY(-50%);
+	 		padding: 0.2rem;
+	 		font-size: 1.3rem;
+	 		background-color: @light;
+	 	}
+
+	 	/* Кнопка формы */
+         &-btn {
+         	display: block;
+         	width: 100%;
+         	height: 4.2rem;
+         	font-size: 0.9em;
+         }
+
+	 	/* подпись  */
+
+	 	small {
+	 		display: block;
+	 		margin-top: 1.5rem;
+	 	}
+
+	 }
+}
+
+
+.header {
+	height: 7rem;
+}
+.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+	&-block {
+        display: table-cell;
+        vertical-align: middle;
+	}
+}
+
+.phone-link {
+	display: inline-block;
+	color: @text;
+	font-weight: 900;
+	font-size: 1.4rem;
+	height: 7rem;
+	line-height: 7rem;
+}
