@@ -40,6 +40,9 @@ a {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+header-btn {
+  widht: 100%;
+}
 .button:hover {
   cursor: pointer;
   background-color: #de9d01;
