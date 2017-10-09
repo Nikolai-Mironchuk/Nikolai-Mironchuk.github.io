@@ -1,0 +1,48 @@
+a {
+	display: inline-block;
+	margin: 20px;
+}
+.btn-danger {
+	margin: 5% 10%;	
+	width: 300px;
+	}
+	
+
+p {
+	font-size: 14px;
+}
+.modal-dialog {
+	width: 450px;
+}
+h4 {
+	font-size: 16px;
+}
+.modal-title {
+	text-align: center;
+	font-weight: 700;
+ color: orange;
+ text-shadow: 1px 1px 2px #bfbfda;
+}
+.modal-body {
+	height: 50px;
+ position: relative;
+ padding: 15px;
+ border-top: 2px solid red;
+}
+.btn-primary {
+ 
+ font-size: 12px;
+ 
+
+} 
+.btn-default {
+ color: blue;
+ font-size: 12px;
+ 
+ 
+}
+.modal-footer {
+	height: 60px;
+}
+
+    
