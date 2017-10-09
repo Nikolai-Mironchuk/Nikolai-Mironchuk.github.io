@@ -41,6 +41,9 @@ textarea {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+.header-btn {
+  z-index:99;
+}
 .button:hover {
   cursor: pointer;
   background-color: #de9d01;
