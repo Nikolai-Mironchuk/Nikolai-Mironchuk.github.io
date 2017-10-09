@@ -140,11 +140,14 @@ section {
   height: 7rem;
 }
 .wrap {
+  position: relative;
+  z-index:8;
   display: table;
   width: 100%;
   height: 7rem;
 }
 .wrap-block {
+  
   display: table-cell;
   vertical-align: middle;
   text-align: right;
