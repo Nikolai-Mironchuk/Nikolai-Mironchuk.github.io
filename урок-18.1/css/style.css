@@ -1,0 +1,23 @@
+body {
+  background: url(../img/min.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.panel {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 30%;
+  -webkit-box-shadow: 6px 6px 6px red;
+          box-shadow: 6px 6px 6px red;
+  background-color: black;
+  font-size: 25px;
+  text-shadow: 1px 0px 0px #232;
+  color: red;
+  width: 40%;
+}
+.panel-panel-default {
+  width: 60%;
+}
+p {
+  font-size: 20px;
+}
