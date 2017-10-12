@@ -62,6 +62,7 @@
   [18.1-урок](https://nikolai-mironchuk.github.io/урок-18.1/ " аккордеон на сайте.") - аккордеон на сайте.
   
   [18.2-урок](https://nikolai-mironchuk.github.io/урок-18.2/ " блоки с ценами.") - блоки с ценами.
- 
+  
+  [19-урок](https://nikolai-mironchuk.github.io/урок-19/ " Анимация на CSS3.") - Анимация на CSS3.
  
  
