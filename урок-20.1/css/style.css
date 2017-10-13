@@ -383,7 +383,7 @@ section {
   max-width: 30rem;
   margin: auto;
 }
-.ruka {
+.hand {
   position: absolute;
   bottom: 0;
   margin-left: -15rem;
@@ -436,7 +436,7 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
 }
 @media (max-width: 2000px) {
-  .ruka {
+  .hand {
     position: absolute;
     bottom: 0;
     margin-left: 16rem;
@@ -444,7 +444,7 @@ section {
   }
 }
 @media (max-width: 1756px) {
-  .ruka {
+  .hand {
     position: absolute;
     bottom: 0;
     margin-left: 10rem;
@@ -452,15 +452,22 @@ section {
   }
 }
 @media (max-width: 1525px) {
-  .ruka {
+  .hand {
     position: absolute;
     bottom: 0;
     margin-left: 2rem;
     max-width: -10rem;
   }
+  .feedback-next-btn {
+    right: 1%;
+  }
+  .feedback-prev-btn {
+    position: absolute;
+    left: 1%;
+  }
 }
 @media (max-width: 1200px) {
-  .ruka {
+  .hand {
     position: absolute;
     bottom: 0;
     margin-left: -13rem;
@@ -476,7 +483,7 @@ section {
   }
 }
 @media (max-width: 991px) {
-  .ruka {
+  .hand {
     display: none;
   }
   .feedback-form label {
