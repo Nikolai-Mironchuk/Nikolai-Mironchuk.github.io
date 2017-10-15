@@ -70,38 +70,10 @@ button, input, a, textarea {
 	}
 }
 
-.form {
-	/* поле для ввода */
-         &-input {
-         display: block;
-         margin: 2rem 0;
-         width: 100%;
-         border: 1px solid @border-input;
-         border-radius:5px;
-         padding: 1.4rem;
+
+	
 
 
-	 	}
-	 	/* подписи к полям */
-	 	label {
-	 		position: absolute;
-	 		
-	 		left: 50%;
-	 		transform: translateX(-50%) translateY(-50%);
-	 		padding: 0.2rem;
-	 		font-size: 1.3rem;
-	 		background-color: @light;
-	 	}
-
-	 	/* Кнопка формы */
-         &-btn {
-         	display: block;
-         	width: 100%;
-         	height: 4.2rem;
-         	font-size: 0.9em;
-         }
-
-}
 /* typography */
 
 section {
@@ -132,7 +104,7 @@ section {
 			margin-top: 0;
 			margin-bottom: 6rem;
 			.bold();
-			font-size: 3rem;
+			font-size: 2rem;
 			line-height: 1.2;
 			text-transform: uppercase;
         }
@@ -175,7 +147,35 @@ section {
 	 			font-size: 1.5rem;
 	 		}
 	 	}
+    /* поле для ввода */
+         &-input {
+         display: block;
+         margin: 2rem 0;
+         width: 100%;
+         border: 1px solid @border-input;
+         border-radius:5px;
+         padding: 1.4rem;
 
+
+	 	}
+	 	/* подписи к полям */
+	 	label {
+	 		position: absolute;
+	 		
+	 		left: 50%;
+	 		transform: translateX(-50%) translateY(-50%);
+	 		padding: 0.2rem;
+	 		font-size: 1.3rem;
+	 		background-color: @light;
+	 	}
+
+	 	/* Кнопка формы */
+         &-btn {
+         	display: block;
+         	width: 100%;
+         	height: 4.2rem;
+         	font-size: 0.9em;
+         }
 	 	
 	 	/* подпись  */
 
@@ -196,6 +196,8 @@ section {
 	width: 100%;
 	height: 7rem;
 	&-block {
+		position:relative;
+		z-index: 8;
         display: table-cell;
         vertical-align: middle;
         text-align: right;
