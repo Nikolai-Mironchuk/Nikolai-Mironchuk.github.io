@@ -73,6 +73,8 @@
  
  [21.1-урок](https://nikolai-mironchuk.github.io/lesson-21.1/ " Доверстали блок с отзывами") - Доверстали блок с отзывами
  
+ [22-урок](https://nikolai-mironchuk.github.io/lesson-22/ " Гео-карты для сайта.") - Гео-карты для сайта.
+ 
  [22.1-урок](https://nikolai-mironchuk.github.io/lesson-22.1/ " Развеиваем сомнения") - Развеиваем сомнения
  
  
