@@ -439,23 +439,35 @@ section {
   .hand {
     position: absolute;
     bottom: 0;
-    margin-left: 16rem;
+    margin-left: -1rem;
     max-width: -10rem;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
   }
 }
 @media (max-width: 1756px) {
   .hand {
     position: absolute;
     bottom: 0;
-    margin-left: 10rem;
+    margin-left: -3rem;
     max-width: -10rem;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
   }
 }
 @media (max-width: 1525px) {
   .hand {
     position: absolute;
     bottom: 0;
-    margin-left: 2rem;
+    margin-left: -13rem;
     max-width: -10rem;
   }
   .feedback-next-btn {
@@ -465,13 +477,33 @@ section {
     position: absolute;
     left: 1%;
   }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .feedback-form label {
+    -webkit-transform: translate(-50%, 40%);
+            transform: translate(-50%, 40%);
+  }
 }
 @media (max-width: 1200px) {
   .hand {
     position: absolute;
     bottom: 0;
-    margin-left: -13rem;
+    margin-left: -20rem;
     max-width: -10rem;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .feedback-form label {
+    -webkit-transform: translate(-50%, 40%);
+            transform: translate(-50%, 40%);
   }
 }
 @media (max-width: 1991px) {
@@ -480,6 +512,12 @@ section {
   }
   .feedback .fotorama {
     margin-bottom: 3rem;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
   }
 }
 @media (max-width: 991px) {
@@ -514,6 +552,12 @@ section {
   .price-block {
     margin-top: 2rem;
   }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
 }
 section-header_light {
   margin-bottom: 0;
@@ -534,7 +578,17 @@ section-header_light {
   .feedback-next-btn {
     right: 0px;
   }
+  .section-header_light {
+    margin-bottom: 0;
+  }
+  .feedback-form label {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
-.section-header_light {
-  margin-bottom: 0;
+@media (max-width: 510px) {
+  .feedback-form label {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
